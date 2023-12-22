@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="playingCards faceImages">
-      <Card rank="2" suit="♦" />
+      <Card rank="9" suit="♦" />
     </div>
   )
 }
