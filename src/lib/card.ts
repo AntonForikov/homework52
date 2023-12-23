@@ -1,9 +1,12 @@
-
+interface Suit {
+    name: string,
+    simbol: string
+}
 
 class Card {
     rank: string;
-    suit: string;
-    constructor(rank: string, suit: string) {
+    suit: Suit;
+    constructor(rank: string, suit: Suit) {
         this.rank = rank;
         this.suit = suit;
     }

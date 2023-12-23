@@ -11,10 +11,12 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   </React.StrictMode>,
 );
 
-const test = new CardDeck();
+// const test = new CardDeck();
+//
+// test.getCards(5)
 
-console.log(test.getCard())
-console.log(test.getCards(5))
+// console.log(test.getCard())
+// console.log(test.getCards(5))
 
 // const arr = [1, 2, 3];
 //
