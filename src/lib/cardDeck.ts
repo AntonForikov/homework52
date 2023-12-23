@@ -17,7 +17,6 @@ class CardDeck{
             {name: "clubs", simbol: '♣'},
             {name: "spades", simbol: '♠'},
         ];
-        // this.suits = ['♦', '♥', '♣', '♠'];
         this.deck = [];
         for (const suit of this.suits) {
             for (const rank of this.ranks) {
@@ -25,7 +24,6 @@ class CardDeck{
                 this.deck.push(card);
             }
         }
-        // console.log(this.deck)
     }
 
     getCard(): Card {
@@ -40,10 +38,8 @@ class CardDeck{
         for (let i = 0; i < howMany; i++) {
             cardArr.push(this.getCard());
         }
-        // console.log(this.deck);
-        // console.log(cardArr);
         return cardArr;
     }
 }
 
-export default CardDeck
+export default CardDeck;
